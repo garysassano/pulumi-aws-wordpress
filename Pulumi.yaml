@@ -1,0 +1,4 @@
+name: pulumi-aws-wordpress
+description: WordPress on ECS Fargate with RDS backend
+runtime:
+  name: python
