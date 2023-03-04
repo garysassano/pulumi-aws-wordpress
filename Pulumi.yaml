@@ -1,0 +1,11 @@
+name: pulumi-aws-wordpress
+runtime:
+  name: python
+  options:
+    toolchain: poetry
+    typechecker: pyright
+description: WordPress on ECS Fargate with RDS backend
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: python
